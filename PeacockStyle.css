@@ -1,0 +1,91 @@
+/* THe .css file for Christie Peacock's GEOM 101 assignment */
+/* Assign the background colour for the web page*/
+body {  background-color: linen;font-family: Arial;}
+h1 	{ color: red;text-align: center;}
+
+p1 {color: black;font-size: 18px;}
+p2 {color: black;font-size: 16px;}
+p3 {color:blue; font-size 18px;}
+
+/* Formatting for URL links*/
+a:link {
+  color: green;
+  background-color: transparent;
+  }
+a:visited {
+  color: red;
+  background-color: transparent;
+  }
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Formatting for the "Trebuchet"  photo, to be on RH side of web page
+I want a 10pixel padding clearance around the photo but no top/bottom margins*/
+img.one {
+	float: right;
+   height: 620px;
+  width: 920px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+/* Formatting for the "Before" pumpkin  photo, to be on LH side of web page
+similar formatting as the 1st image*/
+img.two {
+  float:left;
+  height: 394px;
+  width: 388px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+/* Formatting the launch video so it appears on the RH side of page
+I want it to run on autoplay
+similar formatting to photos*/
+video.three {
+  float:right;
+  height: 500px;
+  width: 500px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+/* Formatting for the "After" pumpkin  photo, to be on LH side of web page
+similar formatting to other photos*/
+img.four {
+  float:left;
+  height: 512px;
+  width: 384px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+/* Formatting for the chickens photo, to be on RH side of web page
+with similar formatting to all other photos*/
+img.five {
+  float:right;
+  height: 518px;
+  width: 690px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+/* Formatting for the pumpkin launch table */
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+/* sinlge-line borders*/
+table {
+  border-collapse: collapse;
+  width: 30%;
+}	
+/* highlight row data by changeing colour*/
+tr:nth-child(even) {
+	background-color:lightgrey;
+}
+
+
