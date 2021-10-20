@@ -6,16 +6,20 @@ h1 	{ color: red;text-align: center;}
 /* Formatting for paragraphs*/
 #p1 {color: black;font-size: 18px;}
 #p2 {color: black;font-size: 16px;}
-#p3 {color:blue; font-size: 18px;}
+#p3 {color:blue; font-size: 16px;}
+#p4 {color:dark grey; font-size: 16px;}
+
 
 /* Formatting for URL links*/
+/* using suggestions  from https://www.w3schools.com/html/html_links_colors.asp*/
 a:link {
   color: green;
   background-color: transparent;
   }
 a:visited {
-  color: red;
-  background-color: transparent;
+  color: black;
+  background-color: yellow;
+  text-decoration: none;
   }
 a:hover {
   color: blue;
@@ -88,5 +92,3 @@ table {
 tr:nth-child(even) {
 	background-color:lightgrey;
 }
-
-
